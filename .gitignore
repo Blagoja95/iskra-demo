@@ -21,3 +21,10 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# custom
+
+main.css
+main.css.map
+/dist
+.parcel-cache

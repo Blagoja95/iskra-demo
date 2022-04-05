@@ -1,0 +1,12 @@
+$dark-blue: hsla(208, 97%, 28%, 1);
+$pale-blue: hsla(207, 62%, 47%, 1);
+
+$black: hsla(0, 0%, 0%, 1);
+$white: hsla(0, 0%, 100%, 1);
+// Gradient
+$blue1: hsla(207, 100%, 28%, 1);
+$blue2: hsla(210, 100%, 27%, 1);
+
+%blueGradient {
+  background: linear-gradient(to top, $blue1, $blue2);
+}

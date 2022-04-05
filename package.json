@@ -2,9 +2,10 @@
   "name": "iskra-demo",
   "version": "1.0.0",
   "description": "demo of iskra main page",
-  "main": "index.html",
+  "source": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "parcel",
+    "build": "parcel build "
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/Blagoja95/iskra-demo/issues"
   },
-  "homepage": "https://github.com/Blagoja95/iskra-demo#readme"
+  "homepage": "https://github.com/Blagoja95/iskra-demo#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.4.1",
+    "parcel": "^2.4.1",
+    "sass": "^1.49.11"
+  }
 }

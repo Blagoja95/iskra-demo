@@ -16,11 +16,109 @@
       crossorigin="anonymous"
     />
 
-    <link rel="stylesheet" href="src/sass/" />
+    <link rel="stylesheet" href="src/main.css" />
     <title>Iskra demo</title>
   </head>
   <body>
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <header class="header"></header>
+    <main class="main container">
+      <section class="market__section">
+        <div class="market__titles container--custom">
+          <h2 class="title title--section-title">Markets</h2>
+          <h1 class="title title--main">
+            A Quest for Innovation Across Industries & products
+          </h1>
+        </div>
+        <div class="markets">
+          <div class="market">
+            <img
+              src="src/images/healtcare.svg"
+              alt="healthcare icon"
+              class="market__img"
+            />
+            <h3 class="title title--market">Healthcare</h3>
+            <p class="paragraph--market">
+              Constant focus on the consumer or patient needs and a quick
+              response when it comes to developing new innovative products that
+              are efficient, reliable, and powerful at the same time.
+            </p>
+            <a href="#" class="link--market">
+              <img
+                src="src/images/linkIcon.svg"
+                alt="link icon"
+                class="link--icon"
+              />
+              More</a
+            >
+          </div>
+          <div class="market">
+            <img
+              src="src/images/car.svg"
+              alt="automotive icon"
+              class="market__img"
+            />
+            <h3 class="title title--market">Automotive</h3>
+            <p class="paragraph--market">
+              Advances and new technologies in the industry enable us to unleash
+              our creative mindset when it comes to designing drive solutions
+              that minimize emissions and are fitted for integration in
+              autonomous driving and electric mobility applications.
+            </p>
+            <a href="#" class="link--market">
+              <img
+                src="src/images/linkIcon.svg"
+                alt="link icon"
+                class="link--icon"
+              />
+              More</a
+            >
+          </div>
+          <div class="market">
+            <img
+              src="src/images/smarthome.svg"
+              alt="smarthome icon"
+              class="market__img"
+            />
+            <h3 class="title title--market">Smart Home</h3>
+            <p class="paragraph--market">
+              Conceptualizing and designing smart and innovative solutions, from
+              household appliances with increasing device interconnectivity to
+              smart home solutions that include any kind of drive mechanism.
+            </p>
+            <a href="#" class="link--market">
+              <img
+                src="src/images/linkIcon.svg"
+                alt="link icon"
+                class="link--icon"
+              />
+              More</a
+            >
+          </div>
+          <div class="market">
+            <img
+              src="src/images/industrial.svg"
+              alt="industry icon"
+              class="market__img"
+            />
+            <h3 class="title title--market">Industrial</h3>
+            <p class="paragraph--market">
+              Precise and reliable mechatronic drive solutions for adjusting,
+              lifting, turning, driving, lowering that get the job done
+              efficiently and with maximum performance.
+            </p>
+            <a href="#" class="link--market">
+              <img
+                src="src/images/linkIcon.svg"
+                alt="link icon"
+                class="link--icon"
+              />
+              More</a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- Bootstrap JS -->
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
       integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
