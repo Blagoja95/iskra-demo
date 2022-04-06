@@ -4,8 +4,7 @@
 }
 
 .titles--indexes {
-  width: 50%;
-  margin: 0 auto;
+  @extend %titles--center;
 }
 
 .key-indexes__title {
@@ -64,7 +63,7 @@
   font-size: 2.1rem;
 
   &:hover {
-    background-color: $pale-blue;
-    border-color: $pale-blue;
+    background-color: $lighy-blue;
+    border-color: $lighy-blue;
   }
 }

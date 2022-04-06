@@ -30,7 +30,7 @@
   &::after {
     content: "";
     width: 12rem;
-    border: 0.1rem solid $pale-blue;
+    border: 0.1rem solid $lighy-blue;
     transform: translateX(-20%);
   }
 
@@ -45,7 +45,7 @@
   font-size: 2.5rem;
   letter-spacing: 0.1rem;
   padding-bottom: 0.3rem;
-  border-bottom: 0.3rem solid $pale-blue;
+  border-bottom: 0.3rem solid $lighy-blue;
   align-self: flex-start;
 }
 
@@ -71,7 +71,7 @@
 
 .services__btn {
   color: $white;
-  border-color: $pale-blue;
+  border-color: $lighy-blue;
   padding: 1rem 6rem;
 
   filter: drop-shadow(0px 0px 14px rgba(0, 0, 0, 0.25));
@@ -80,7 +80,7 @@
   text-transform: uppercase;
 
   &:hover {
-    background-color: $pale-blue;
-    border-color: $pale-blue;
+    background-color: $lighy-blue;
+    border-color: $lighy-blue;
   }
 }

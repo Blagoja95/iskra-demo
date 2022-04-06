@@ -1,0 +1,16 @@
+.core-values__section {
+  @extend %section;
+  background-color: $pale-blue;
+}
+
+.core-values_inner {
+  @extend %container--custom;
+}
+.titles--core-values {
+  @extend %titles--center;
+}
+
+.value {
+  @extend %darkBG;
+  background-color: $dark-blue;
+}

@@ -32,10 +32,10 @@ body {
 %darkBG {
   .title--section-title,
   .service__number {
-    color: $pale-blue;
+    color: $lighy-blue;
 
     &::after {
-      border-color: $pale-blue;
+      border-color: $lighy-blue;
     }
   }
 
@@ -71,6 +71,10 @@ body {
 
 .titles {
   padding: 5rem 0 0 5rem;
-  background-color: $white;
   width: 100%;
+}
+
+%titles--center {
+  width: 50%;
+  margin: 0 auto;
 }
