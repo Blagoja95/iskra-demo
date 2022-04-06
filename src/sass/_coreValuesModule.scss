@@ -9,8 +9,42 @@
 .titles--core-values {
   @extend %titles--center;
 }
+.values {
+  @extend %flexbox;
+  @extend %section;
+  flex-direction: column;
+  gap: 8rem;
+  padding-left: 18%;
+}
 
+.value-box {
+  position: relative;
+  background-image: url("images/valuesComponentBG.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 52rem;
+  width: 95rem;
+
+  &:nth-child(even) {
+    .value {
+      transform: translateX(-40%);
+    }
+  }
+}
 .value {
   @extend %darkBG;
+  padding: 8% 5%;
   background-color: $dark-blue;
+  width: 65.5rem;
+  height: 32rem;
+
+  position: absolute;
+  bottom: 0;
+  transform: translateX(85%);
+}
+
+.value__paragraph {
+  color: $white;
+  font-size: 1.7rem;
+  width: 58ch;
 }
