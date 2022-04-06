@@ -9,10 +9,7 @@
   @extend %container--custom;
 }
 
-.market__titles {
-  padding: 5rem 0 0 5rem;
-  background-color: $white;
-  width: 100%;
+.titles--market {
   position: absolute;
   top: 0;
   right: 0;

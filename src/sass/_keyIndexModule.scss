@@ -1,0 +1,42 @@
+.key-indexes__section {
+  @extend %section;
+  @extend %container--custom;
+}
+
+.titles--indexes {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.key-indexes__title {
+  width: 14ch;
+  line-height: 1;
+}
+
+.key-indexes {
+  @extend %section;
+}
+.key-index {
+}
+.key-index__number {
+  position: relative;
+  color: $dark-blue;
+  font-size: 10.5rem;
+  padding-bottom: 1rem;
+
+  &::after {
+    position: absolute;
+    display: block;
+    content: "";
+    bottom: 0;
+    left: 5%;
+    width: 0.8ch;
+    border-bottom: 0.1rem solid $dark-blue;
+  }
+}
+.key-index__text {
+  width: 14ch;
+  color: $black;
+  font-size: 5.2rem;
+  line-height: 1;
+}
