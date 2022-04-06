@@ -24,7 +24,5 @@ yarn-error.log*
 
 # custom
 
-main.css
-main.css.map
 /dist
 .parcel-cache
