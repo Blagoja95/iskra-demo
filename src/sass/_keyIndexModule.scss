@@ -15,9 +15,17 @@
 
 .key-indexes {
   @extend %section;
+  @extend %flexbox;
+  justify-content: space-between;
 }
 .key-index {
+  height: 35rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
 }
+
 .key-index__number {
   position: relative;
   color: $dark-blue;
@@ -34,9 +42,29 @@
     border-bottom: 0.1rem solid $dark-blue;
   }
 }
+
 .key-index__text {
-  width: 14ch;
+  width: 11ch;
   color: $black;
   font-size: 5.2rem;
   line-height: 1;
+  margin: 0;
+}
+
+.key-indexes__box {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.key-indexes__button {
+  color: $white !important;
+  background-color: $dark-blue;
+  border-radius: 40px;
+  padding: 1rem 6rem;
+  font-size: 2.1rem;
+
+  &:hover {
+    background-color: $pale-blue;
+    border-color: $pale-blue;
+  }
 }
