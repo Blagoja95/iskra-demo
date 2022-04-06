@@ -10,11 +10,17 @@ html {
 }
 
 body {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: Calibri light, sans-serif;
 }
 
-.container--custom {
-  padding: 5% 5% 0 5%;
+%container--custom {
+  margin: 0 auto;
+  max-width: 155rem;
+}
+
+%section {
+  padding: 5% 0;
+  position: relative;
 }
 
 %flexbox {
@@ -23,9 +29,25 @@ body {
   align-items: center;
 }
 
+%darkBG {
+  .title--section-title,
+  .service__number {
+    color: $pale-blue;
+
+    &::after {
+      border-color: $pale-blue;
+    }
+  }
+
+  .title--main,
+  .service__paragraph {
+    color: $white;
+  }
+}
+
 .title--main {
   color: $black;
-  font-size: 6.5rem;
+  font-size: 5.5rem;
   width: 81.6rem;
 }
 

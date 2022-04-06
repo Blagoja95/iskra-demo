@@ -1,0 +1,86 @@
+.services__section {
+  height: 62rem;
+  background: url("images/serviceBG.png");
+  background-size: cover;
+}
+
+.services__box {
+  @extend %section;
+  @extend %blueGradient;
+  height: 100%;
+  width: 100%;
+}
+
+.services {
+  @extend %container--custom;
+  @extend %darkBG;
+  padding-bottom: 5%;
+}
+
+.services__inner {
+  @extend %flexbox;
+  justify-content: space-between;
+  padding-bottom: 5%;
+}
+
+.service {
+  @extend %flexbox;
+  gap: 3rem;
+
+  &::after {
+    content: "";
+    width: 12rem;
+    border: 0.1rem solid $pale-blue;
+    transform: translateX(-20%);
+  }
+
+  &:last-child {
+    &::after {
+      content: none;
+    }
+  }
+}
+
+.service__number {
+  font-size: 2.5rem;
+  letter-spacing: 0.1rem;
+  padding-bottom: 0.3rem;
+  border-bottom: 0.3rem solid $pale-blue;
+  align-self: flex-start;
+}
+
+.service__paragraph {
+  width: 15ch;
+  font-size: 2.5rem;
+  text-indent: -1rem;
+
+  &--long {
+    text-indent: 0rem;
+    width: 22ch;
+  }
+
+  &--secund-line {
+    display: block;
+    padding-left: 1rem;
+  }
+
+  &--small {
+    width: 10ch;
+  }
+}
+
+.services__btn {
+  color: $white;
+  border-color: $pale-blue;
+  padding: 1rem 6rem;
+
+  filter: drop-shadow(0px 0px 14px rgba(0, 0, 0, 0.25));
+  border-radius: 40px;
+  font-size: 2.6rem;
+  text-transform: uppercase;
+
+  &:hover {
+    background-color: $pale-blue;
+    border-color: $pale-blue;
+  }
+}

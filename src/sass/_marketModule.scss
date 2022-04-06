@@ -1,13 +1,16 @@
 .header {
   height: 28rem;
-  background-color: $pale-blue;
+  @extend %blueGradient;
+  box-shadow: 0 0 0 0;
 }
 
 .market__section {
-  position: relative;
+  @extend %section;
+  @extend %container--custom;
 }
 
 .market__titles {
+  padding: 5rem 0 0 5rem;
   background-color: $white;
   width: 100%;
   position: absolute;
@@ -16,7 +19,6 @@
   transform: translate(25%, -100%);
 }
 .markets {
-  padding-top: 5%;
   @extend %flexbox;
 }
 .market {
@@ -49,6 +51,16 @@
 .link--market {
   font-size: 2.5rem;
   text-decoration: none;
+  @extend %flexbox;
+  justify-content: flex-start;
+  gap: 1rem;
+
+  &:hover {
+    .link--icon {
+      transition: all 1s;
+      transform: translateX(1rem);
+    }
+  }
 }
 
 .link--icon {
