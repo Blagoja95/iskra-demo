@@ -1,0 +1,59 @@
+.info__section {
+  @extend %section;
+  @extend %container--custom;
+}
+.news-box {
+  @extend %flexbox;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.news {
+  width: 33%;
+}
+
+.news__subtitle {
+  font-size: 3.6rem;
+}
+.news__paragraph {
+  width: 44ch;
+}
+
+.news__link {
+  color: $lighy-blue;
+  text-decoration: none;
+
+  &:hover {
+    color: $dark-blue;
+  }
+}
+
+.newsletter {
+  @extend %flexbox;
+}
+
+.newsletter__paragraph,
+.news__paragraph {
+  font-size: 1.7rem;
+}
+
+.newsletter__inner {
+  width: 30%;
+}
+.newsletter__form {
+  position: relative;
+  width: 43rem;
+  border-radius: 10rem;
+}
+
+.newsletter__input {
+  height: 5rem !important;
+  border-radius: 10rem;
+}
+.newsletter__btn {
+  position: absolute !important;
+  width: 12rem;
+  height: 5rem;
+  right: 0;
+  border-radius: 10rem;
+}

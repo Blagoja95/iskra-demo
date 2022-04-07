@@ -16,19 +16,20 @@ html {
 
 body {
   font-family: Calibri light, sans-serif;
+  overflow-x: hidden;
 }
 
-.core-values_inner, .key-indexes__section, .services, .market__section {
+.info__section, .core-values_inner, .key-indexes__section, .services, .market__section {
   margin: 0 auto;
   max-width: 155rem;
 }
 
-.values, .core-values__section, .key-indexes, .key-indexes__section, .services__box, .market__section {
+.info__section, .values, .core-values__section, .key-indexes, .key-indexes__section, .services__box, .market__section {
   padding: 5% 0;
   position: relative;
 }
 
-.values, .key-indexes, .service, .services__inner, .link--market, .markets {
+.newsletter, .news-box, .values, .key-indexes, .service, .services__inner, .link--market, .markets {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -258,6 +259,7 @@ body {
 .key-indexes__button {
   color: white !important;
   background-color: #024c8d;
+  border-color: #024c8d;
   border-radius: 40px;
   padding: 1rem 6rem;
   font-size: 2.1rem;
@@ -303,6 +305,63 @@ body {
   color: white;
   font-size: 1.7rem;
   width: 58ch;
+}
+
+.value__link:hover {
+  text-decoration: none;
+}
+
+.news-box {
+  justify-content: space-between;
+  width: 100%;
+}
+
+.news {
+  width: 33%;
+}
+
+.news__subtitle {
+  font-size: 3.6rem;
+}
+
+.news__paragraph {
+  width: 44ch;
+}
+
+.news__link {
+  color: #2e7fc2;
+  text-decoration: none;
+}
+.news__link:hover {
+  color: #024c8d;
+}
+
+.newsletter__paragraph,
+.news__paragraph {
+  font-size: 1.7rem;
+}
+
+.newsletter__inner {
+  width: 30%;
+}
+
+.newsletter__form {
+  position: relative;
+  width: 43rem;
+  border-radius: 10rem;
+}
+
+.newsletter__input {
+  height: 5rem !important;
+  border-radius: 10rem;
+}
+
+.newsletter__btn {
+  position: absolute !important;
+  width: 12rem;
+  height: 5rem;
+  right: 0;
+  border-radius: 10rem;
 }
 
 /*# sourceMappingURL=main.css.map */
