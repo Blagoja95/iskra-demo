@@ -29,7 +29,7 @@ body {
   position: relative;
 }
 
-.newsletter, .news-box, .values, .key-indexes, .service, .services__inner, .link--market, .markets {
+.news-box, .values, .key-indexes, .service, .services__inner, .link--market, .markets {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -314,6 +314,7 @@ body {
 .news-box {
   justify-content: space-between;
   width: 100%;
+  padding-bottom: 5%;
 }
 
 .news {
@@ -336,9 +337,22 @@ body {
   color: #024c8d;
 }
 
+.newsletter {
+  padding: 1% 3% 3% 3%;
+  background-color: #f0f0f0;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 3rem;
+}
+
 .newsletter__paragraph,
 .news__paragraph {
-  font-size: 1.7rem;
+  font-size: 1.4rem;
+}
+
+.newsletter__paragraph {
+  width: 86%;
 }
 
 .newsletter__inner {
@@ -347,21 +361,27 @@ body {
 
 .newsletter__form {
   position: relative;
-  width: 43rem;
+  width: 50rem;
   border-radius: 10rem;
 }
 
 .newsletter__input {
   height: 5rem !important;
-  border-radius: 10rem;
+  border-radius: inherit !important;
+  color: #49545b;
+  font-size: 1.5rem;
+  padding-left: 3rem;
 }
 
 .newsletter__btn {
   position: absolute !important;
-  width: 12rem;
+  width: 10rem;
   height: 5rem;
   right: 0;
-  border-radius: 10rem;
+  border-radius: inherit !important;
+  font-size: 2.1rem;
+  color: white;
+  background-color: #024c8d;
 }
 
 /*# sourceMappingURL=main.css.map */
