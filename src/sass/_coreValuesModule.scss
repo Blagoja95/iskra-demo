@@ -20,14 +20,14 @@
 .value-box {
   position: relative;
   background-image: url("../images/valuesComponentBG.png");
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   height: 52rem;
-  width: 95rem;
+  width: 75%;
 
   &:nth-child(even) {
     .value {
-      transform: translateX(-40%);
+      transform: translate(-80%, 0%);
     }
   }
 }
@@ -35,12 +35,14 @@
   @extend %darkBG;
   padding: 8% 5%;
   background-color: $dark-blue;
-  width: 65.5rem;
-  height: 32rem;
+  width: 70%;
+  height: 60%;
+  max-width: 65rem;
 
   position: absolute;
   bottom: 0;
-  transform: translateX(85%);
+  transform: translate(33%, 0%);
+  right: 0;
 }
 
 .value__paragraph {

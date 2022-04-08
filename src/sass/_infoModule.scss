@@ -53,7 +53,8 @@
 }
 .newsletter__form {
   position: relative;
-  width: 50rem;
+  width: 50%;
+  max-width: 50rem;
   border-radius: 10rem;
 }
 
@@ -63,6 +64,7 @@
   color: $dark-grey;
   font-size: 1.5rem;
   padding-left: 3rem;
+  z-index: 0;
 }
 
 .newsletter__btn {

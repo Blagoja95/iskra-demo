@@ -1,0 +1,205 @@
+@media screen and (max-width: 1650px) {
+  html {
+    font-size: 56.25%;
+  }
+
+  .service::after {
+    width: 10rem;
+  }
+
+  .service {
+    gap: 1.5rem;
+  }
+
+  .value-box {
+    height: 46rem;
+  }
+
+  .value__subtitle {
+    font-size: 4.5rem;
+  }
+
+  .value__paragraph {
+    font-size: 1.5rem;
+  }
+
+  .value {
+    padding: 7% 5%;
+  }
+}
+
+@media screen and (max-width: 1450px) {
+  .newsletter__paragraph {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1350px) {
+  %titlesFlex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  %titleFix {
+    .title {
+      text-align: center;
+    }
+
+    .title--section-title::after {
+      width: 100%;
+    }
+  }
+
+  .titles {
+    @extend %titlesFlex;
+    @extend %titleFix;
+
+    position: static;
+    transform: none;
+    margin: 0 auto;
+    padding: 5% 0;
+  }
+
+  .markets {
+    flex-wrap: wrap;
+    gap: 2rem;
+    row-gap: 6rem;
+  }
+
+  .market:nth-of-type(2) {
+    border: none;
+  }
+
+  .services__title-box {
+    @extend %titlesFlex;
+    @extend %titleFix;
+  }
+
+  .services__inner {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5rem;
+  }
+
+  .key-indexes {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3rem;
+  }
+
+  .key-index__number {
+    font-size: 9.5rem;
+  }
+  .key-index__text {
+    font-size: 5.2rem;
+  }
+
+  .value-box {
+    height: 42rem;
+  }
+
+  .value {
+    min-width: 45rem;
+    padding: 5%;
+  }
+
+  .value__subtitle {
+    font-size: 3.6rem;
+  }
+
+  .value__paragraph {
+    width: 45ch;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .value-box {
+    height: 38rem;
+  }
+
+  .newsletter {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    padding: 5% 0;
+  }
+
+  .newsletter__paragraph {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  html {
+    font-size: 50%;
+  }
+
+  .value-box {
+    height: 34rem;
+  }
+
+  .value {
+    min-width: 35rem;
+  }
+
+  .value__title {
+    font-size: 1.6rem;
+  }
+
+  .value__subtitle {
+    font-size: 3.2rem;
+  }
+
+  .value__paragraph {
+    font-size: 1.3rem;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .news-box {
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .title--main {
+    width: 100%;
+    font-size: 4.2rem;
+  }
+
+  .markets {
+    flex-direction: column;
+  }
+
+  .market {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    border: none;
+  }
+
+  .paragraph--market {
+    text-align: center;
+  }
+
+  .link--market {
+    padding-top: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .title--main {
+    font-size: 3.4rem;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .market {
+    padding: 10% 0;
+  }
+}
