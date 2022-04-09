@@ -12,6 +12,7 @@
 
 html {
   font-size: 62.5%;
+  overflow-x: hidden;
 }
 
 body {
@@ -451,6 +452,9 @@ body {
     row-gap: 6rem;
   }
 
+  .market {
+    height: 32rem;
+  }
   .market:nth-of-type(2) {
     border: none;
   }
@@ -458,7 +462,16 @@ body {
   .services__inner {
     flex-wrap: wrap;
     justify-content: center;
-    gap: 5rem;
+    gap: 9rem;
+  }
+
+  .service::after {
+    transform: translateX(30%);
+  }
+
+  .service--no-line::after {
+    content: none;
+    width: 100%;
   }
 
   .key-indexes {
@@ -581,6 +594,7 @@ body {
 
   .market {
     width: 100%;
+    height: 28rem;
     align-items: center;
     justify-content: center;
     padding: 0;
@@ -608,18 +622,28 @@ body {
     font-size: 2rem;
   }
 
+  .service {
+    flex-direction: column;
+  }
   .service::after {
     content: none;
   }
 
   .service__number {
     font-size: 2rem;
+    align-self: center;
   }
 
   .service__paragraph {
-    font-size: 2rem;
-    width: fit-content;
+    font-size: 2.8rem;
     text-indent: 0;
+    text-align: center;
+    width: 80%;
+  }
+
+  .service__paragraph--secund-line {
+    padding: 0;
+    display: inline;
   }
 
   .services__btn-box {
@@ -648,8 +672,8 @@ body {
     padding: 3% 5%;
   }
 
-  .value__subtitle {
-    font-size: 3.6rem;
+  .value__paragraph {
+    width: 100%;
   }
 }
 @media screen and (max-width: 750px) {
@@ -673,12 +697,15 @@ body {
 
   .value-box {
     width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
   }
 
   .value {
-    left: 15%;
-    transform: translateY(33%);
     width: 75%;
+    position: static;
+    transform: translate(0%, 33%);
   }
 
   .value-box:nth-child(even) .value {
@@ -686,6 +713,10 @@ body {
   }
 }
 @media screen and (max-width: 600px) {
+  .newsletter {
+    gap: 3rem;
+  }
+
   .newsletter__input {
     padding: 0;
     text-align: center;
@@ -696,6 +727,10 @@ body {
   }
 }
 @media screen and (max-width: 500px) {
+  .markets {
+    padding: 10% 0;
+  }
+
   .key-indexes__button {
     padding: 1rem 3rem;
     font-size: 1.6rem;
@@ -703,6 +738,10 @@ body {
 
   .value-box {
     height: 30rem;
+  }
+
+  .value__subtitle {
+    font-size: 2.8rem;
   }
 }
 @media screen and (max-width: 400px) {
@@ -736,7 +775,7 @@ body {
 
   .value {
     height: 24rem;
-    left: 3%;
+    left: 1.5%;
     max-height: 18rem;
   }
 }

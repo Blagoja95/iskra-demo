@@ -5,14 +5,19 @@ This is the demo of selected sections of Iskra main web page [Figma design](http
 ## [Live site url](https://boris-blagojevic-iskra-demo.netlify.app/)
 
 ## Scripts:
-`npm start` and then http://localhost:1234/
+
+`npm install` then
+
+`npm start` and finally go to http://localhost:1234/
+
+or
 
 `npm run build`
 
-
 ## Build with:
-  HTML
-  SASS
-  litle JS
-  
+
+HTML
+SASS
+litle JS
+
 flex-wrap was a life saver for diferent screen sizes
