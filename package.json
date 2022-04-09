@@ -2,10 +2,10 @@
   "name": "iskra-demo",
   "version": "1.0.0",
   "description": "demo of iskra main page",
-  "source": "index.html",
+  "default": "index.html",
   "scripts": {
-    "start": "parcel",
-    "build": "parcel build"
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
   },
   "repository": {
     "type": "git",
