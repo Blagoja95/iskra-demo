@@ -2,7 +2,7 @@
   "name": "iskra-demo",
   "version": "1.0.0",
   "description": "demo of iskra main page",
-  "source": "index.html",
+  "source": "src/index.html",
   "scripts": {
     "start": "parcel",
     "build": "parcel build"
