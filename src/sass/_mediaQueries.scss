@@ -214,6 +214,7 @@
 
   .markets {
     flex-direction: column;
+    gap: 10rem;
   }
 
   .market {
@@ -240,6 +241,7 @@
 
   .services__inner {
     flex-direction: column;
+    gap: 6rem;
   }
 
   .services__btn {
@@ -327,9 +329,6 @@
   }
 
   .value {
-    // // padding: 3% 8%;
-    // left: 15%;
-    // transform: translateY(33%);
     width: 75%;
     position: static;
     transform: translate(0%, 33%);
@@ -339,6 +338,10 @@
     .value {
       transform: translateY(33%);
     }
+  }
+
+  .newsletter__form {
+    width: 65%;
   }
 }
 
@@ -408,11 +411,15 @@
     left: 1.5%;
     max-height: 18rem;
   }
+
+  .newsletter__form {
+    width: 80%;
+  }
 }
 
 @media screen and (max-width: 300px) {
-  .market {
-    padding: 15% 0;
+  .markets {
+    gap: 12rem;
   }
 
   .key-indexes__button {
