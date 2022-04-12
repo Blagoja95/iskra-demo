@@ -6,7 +6,7 @@ This is the demo of selected sections of Iskra main web page [Figma design](http
 
 App is deployed to Netlify [Live site url](https://boris-blagojevic-iskra-demo.netlify.app/)
 
-OR download repo and 
+OR download repo and
 
 `npm install` then
 
@@ -23,3 +23,7 @@ SASS
 litle JS
 
 flex-wrap was a life saver for diferent screen sizes
+
+## Screenshot
+
+![Screenshoot of iskra page](./readme-assets/iskraDesktop.png)
