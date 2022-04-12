@@ -4,17 +4,14 @@ This is the demo of selected sections of Iskra main web page [Figma design](http
 
 ## How to use:
 
-App is deployed to Netlify [Live site url](https://boris-blagojevic-iskra-demo.netlify.app/)
+- App is deployed to Netlify [Live site url](https://boris-blagojevic-iskra-demo.netlify.app/)
 
-OR download repo and
+OR 
+- download repo and
 
 `npm install` then
 
 `npm start` go to http://localhost:1234/
-
-or
-
-`npm run build`
 
 ## Build with:
 
